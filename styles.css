@@ -1,0 +1,72 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #FFF0F5;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+h3 {
+    font-family: "Raleway", sans-serif;
+}
+
+h4 {
+    font-family: "Raleway", sans-serif;
+}
+
+h5 {
+    font-family: "Raleway", sans-serif;
+}
+
+.btn-group button {
+    background-color: #04AA6D;
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: white;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    width: 50%;
+    /* Set a width if needed */
+    display: block;
+    /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none;
+    /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+button {
+    background-color: #04AA6D;
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: white;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    width: 50%;
+    /* Set a width if needed */
+    display: block;
+    /* Make the buttons appear below each other */
+}
